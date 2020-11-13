@@ -84,6 +84,10 @@ footer {
   display: flex;
   flex-direction: row;
 }
+.about-me {
+  margin-top: 0;
+}
+
 .vizitka {
   display: flex;
   flex-direction: column;
@@ -92,7 +96,7 @@ footer {
 }
 .moje-foto {
   border-radius: 50%;
-  width: 100%;
+  width: 80%;
 }
 a {
   color: #2a7bf7;

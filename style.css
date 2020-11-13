@@ -72,13 +72,9 @@ footer {
   width: 100%;
 }
 a {
-  color: rgb(38, 135, 199);
+  color: #2a7bf7;
   text-decoration: none;
 }
 h3 {
   text-align: center;
-}
-
-.about-me {
-  padding-top: auto;
 }

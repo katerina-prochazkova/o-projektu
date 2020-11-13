@@ -34,6 +34,7 @@ body {
   background-color: rgb(218, 22, 22);
   color: white;
 }
+
 .about-project {
   max-width: 60%;
   text-align: center;
@@ -73,6 +74,10 @@ footer {
 }
 /*---- styly o nás ----*/
 
+.kosik {
+  width: 45px;
+}
+
 .kontejner {
   display: flex;
   flex-direction: row;
@@ -93,19 +98,23 @@ footer {
   border-radius: 50%;
   width: 80%;
 }
+
 a {
-  color: #00a751;
+  color: white;
   text-decoration: none;
+  background-color: #00a751;
+  padding: 12px;
+  border-radius: 10px;
 }
-h3 {
+h2 {
   text-align: center;
+  font-size: 30;
 }
 
 .about-me {
   max-width: 50%;
   text-align: center;
-  margin: 50px 0;
-  margin-left: 50px;
+  margin: 0 0 auto 50px;
   padding: 15px 25px;
   background-color: #f7b32b;
   border-radius: 16px;

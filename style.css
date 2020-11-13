@@ -7,6 +7,9 @@ body {
   height: 90vh;
   width: 80%;
   font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navigation {

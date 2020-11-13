@@ -1,3 +1,5 @@
+/*---- home page ----*/
+
 body {
   font-size: 16px;
   color: #2d1e2f;
@@ -18,7 +20,7 @@ body {
 }
 
 .navigation--link {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
   padding: 15px;
   text-decoration: none;
@@ -29,7 +31,6 @@ body {
 }
 
 .link--sem {
-  margin-right: 50%;
   background-color: rgb(218, 22, 22);
   color: white;
 }
@@ -87,9 +88,6 @@ footer {
   width: 100%;
 }
 
-.popisek {
-}
-
 h2 {
   text-align: center;
   font-size: 30;
@@ -113,7 +111,16 @@ a {
   color: white;
 }
 
-@media screen and (min-width: 720px) {
+/* ----  Medium (641px to 1007px) ---- */
+
+@media screen and (min-width: 641px) {
+  /*---- home page ----*/
+  .navigation--link {
+    font-size: 1.2em;
+  }
+
+  /*---- styly o nás ----*/
+
   .kontejner {
     flex-direction: row;
     justify-content: space-between;
@@ -123,11 +130,43 @@ a {
   }
 
   h2 {
-    /*doplnit*/
+    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
   }
 
   a {
-    /*doplnit*/
+    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
+  }
+
+  .about-me {
+    max-width: 50%;
+    margin: auto 0 auto 50px;
+    padding: 15px 25px;
+  }
+  .about-me-tina {
+    margin: auto 50px auto 0;
+  }
+}
+
+/* ---- LARGE (1008px and larger) ----*/
+
+@media screen and (min-width: 1008px) {
+  /*---- home page ----*/
+
+  /*---- styly o nás ----*/
+  .kontejner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .vizitka {
+    max-width: 30%;
+  }
+
+  h2 {
+    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
+  }
+
+  a {
+    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
   }
 
   .about-me {

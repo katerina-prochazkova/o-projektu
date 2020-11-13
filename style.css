@@ -65,25 +65,34 @@ footer {
 }
 
 /*---- styly o nás ----*/
-
-.kosik {
-  width: 45px;
-}
-
 .kontejner {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
+
+.kontejner-tina {
+  flex-direction: column-reverse;
+}
+
 .vizitka {
+  margin: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 30%;
+  width: 100%;
 }
 .moje-foto {
   border-radius: 50%;
   width: 100%;
+}
+
+.popisek {
+}
+
+h2 {
+  text-align: center;
+  font-size: 30;
 }
 
 a {
@@ -93,17 +102,40 @@ a {
   padding: 12px;
   border-radius: 10px;
 }
-h2 {
-  text-align: center;
-  font-size: 30;
-}
 
 .about-me {
-  max-width: 50%;
+  max-width: 90%;
   text-align: center;
-  margin: 0 0 auto 50px;
+  margin: 30px 0;
   padding: 15px 25px;
   background-color: #f7b32b;
   border-radius: 16px;
   color: white;
+}
+
+@media screen and (min-width: 720px) {
+  .kontejner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .vizitka {
+    max-width: 30%;
+  }
+
+  h2 {
+    /*doplnit*/
+  }
+
+  a {
+    /*doplnit*/
+  }
+
+  .about-me {
+    max-width: 50%;
+    margin: auto 0 auto 50px;
+    padding: 15px 25px;
+  }
+  .about-me-tina {
+    margin: auto 50px auto 0;
+  }
 }

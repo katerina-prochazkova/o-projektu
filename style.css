@@ -14,7 +14,7 @@ body {
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .navigation--link {
@@ -22,10 +22,14 @@ body {
   font-weight: 600;
   padding: 5px 10px;
   border-bottom: 3px solid #f7b32b;
-  border-top: 3px solid #f7b32b;
   text-decoration: none;
   color: inherit;
   background-color: white;
+  text-align: center;
+}
+
+.navigation--link:first-child {
+  border-top: 3px solid #f7b32b;
 }
 
 .navigation--link:hover {
@@ -64,6 +68,16 @@ footer {
   text-align: center;
 }
 
+@media screen and (min-width: 760px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navigation--link {
+    border-top: 3px solid #f7b32b;
+  }
+}
 /*---- styly o nás ----*/
 
 .kontejner {

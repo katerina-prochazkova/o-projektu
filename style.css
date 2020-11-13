@@ -1,5 +1,7 @@
 body {
   font-size: 16px;
+  /* background-color: #f4f1de; */
+  color: #2d1e2f;
 }
 
 .content {
@@ -17,11 +19,30 @@ body {
   justify-content: space-between;
 }
 
+.navigation--link {
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-bottom: 3px solid #f7b32b;
+  border-top: 3px solid #f7b32b;
+  text-decoration: none;
+  color: inherit;
+}
+
 .about-project {
   max-width: 60%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px 25px;
+  background-color: #f7b32b;
+  border-radius: 16px;
+  color: white;
+}
+
+.project-heading {
+  font-size: 2em;
+  font-weight: 600;
 }
 
 footer {

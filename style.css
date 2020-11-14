@@ -7,14 +7,20 @@ body {
 .content {
   margin: 50px auto;
   height: 90vh;
-  width: 80%;
+  width: 70%;
   font-family: 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.navigation {
+/* .navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.o-nas {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,12 +38,11 @@ body {
 }
 
 .link--sem {
-  background-color: rgb(218, 22, 22);
-  color: white;
+  display: none;
 }
 
 .about-project {
-  max-width: 60%;
+  max-width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -54,7 +59,7 @@ body {
 }
 
 .image {
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,6 +76,23 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+  }
+  .link--sem {
+    background-color: rgb(218, 22, 22);
+    color: white;
+    display: block;
+  }
+  .o-nas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-par {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
   }
 }
 /*---- styly o nás ----*/
@@ -94,6 +116,12 @@ footer {
 .moje-foto {
   border-radius: 50%;
   width: 80%;
+}
+
+.popisek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {

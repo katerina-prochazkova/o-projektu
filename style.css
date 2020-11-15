@@ -114,7 +114,6 @@ a {
 
 .about-me {
   max-width: 90%;
-
   margin: 30px 0;
   padding: 15px 25px;
   background-color: #f7b32b;
@@ -122,9 +121,9 @@ a {
   color: white;
 }
 
-/* ----  MEDIUM (641px to 1007px) ---- */
+/* ----  MEDIUM (710px to 1007px) ---- */
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 710px) {
   /*---- home page ----*/
   .navigation {
     display: flex;
@@ -148,6 +147,12 @@ a {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .about-project {
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+
   .project-par {
     max-width: 70%;
     margin-left: auto;
@@ -178,7 +183,11 @@ a {
 
 /* ---- LARGE (1008px and larger) ----*/
 
-/* @media screen and (min-width: 1008px)  */
-/*---- home page ----*/
-
-/*---- styly o nás ----*/
+@media screen and (min-width: 1008px) {
+  /*---- home page ----*/
+  .about-project {
+    margin-top: 5em;
+    margin-bottom: 1em;
+  }
+  /*---- styly o nás ----*/
+}

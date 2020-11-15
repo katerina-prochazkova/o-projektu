@@ -14,12 +14,6 @@ body {
   justify-content: space-between;
 }
 
-/* .navigation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
-
 .o-nas {
   display: flex;
   flex-direction: column;
@@ -31,6 +25,7 @@ body {
   font-weight: 600;
   padding: 15px;
   text-decoration: none;
+  text-align: center;
   color: white;
   background-color: #00a751;
   border: 3px solid white;
@@ -75,31 +70,6 @@ a:hover {
   opacity: 0.9;
 }
 
-@media screen and (min-width: 760px) {
-  .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .link--sem {
-    background-color: rgb(218, 22, 22);
-    color: white;
-    display: block;
-  }
-  .o-nas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .project-par {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.1em;
-    text-align: center;
-  }
-}
 /*---- styly o nás ----*/
 .kontejner {
   display: flex;
@@ -152,12 +122,38 @@ a {
   color: white;
 }
 
-/* ----  Medium (641px to 1007px) ---- */
+/* ----  MEDIUM (641px to 1007px) ---- */
 
 @media screen and (min-width: 641px) {
   /*---- home page ----*/
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .navigation--link {
     font-size: 1.2em;
+  }
+
+  .link--sem {
+    background-color: rgb(218, 22, 22);
+    color: white;
+    display: block;
+  }
+
+  .o-nas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-par {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    text-align: center;
   }
 
   /*---- styly o nás ----*/
@@ -167,20 +163,12 @@ a {
     justify-content: space-between;
   }
   .vizitka {
-    max-width: 30%;
-  }
-
-  h2 {
-    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
-  }
-
-  a {
-    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
+    width: 40%;
   }
 
   .about-me {
     max-width: 50%;
-    margin: auto 0 auto 50px;
+    margin: 30px 0 auto 25px;
     padding: 15px 25px;
   }
   .about-me-tina {
@@ -190,32 +178,7 @@ a {
 
 /* ---- LARGE (1008px and larger) ----*/
 
-@media screen and (min-width: 1008px) {
-  /*---- home page ----*/
+/* @media screen and (min-width: 1008px)  */
+/*---- home page ----*/
 
-  /*---- styly o nás ----*/
-  .kontejner {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .vizitka {
-    max-width: 30%;
-  }
-
-  h2 {
-    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
-  }
-
-  a {
-    /*UPRAVIT, ABY SE VEŠLO NA 1 ŘÁDEK*/
-  }
-
-  .about-me {
-    max-width: 50%;
-    margin: auto 0 auto 50px;
-    padding: 15px 25px;
-  }
-  .about-me-tina {
-    margin: auto 50px auto 0;
-  }
-}
+/*---- styly o nás ----*/
